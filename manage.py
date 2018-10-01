@@ -30,7 +30,6 @@ def add_pedal():
         raw_part = input('')
 
     new_pedal = pedal.create(name, parts)
-
     pedal.save(new_pedal)
 
     print(f'Saved {name}')

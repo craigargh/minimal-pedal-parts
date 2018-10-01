@@ -43,7 +43,7 @@ resistor, 100k
 resistor, 20k
 resistor, 100k 
 
-Saved Old Red Overdrive
+Saved Angry Green Box
 ```
 
 Add a pedal from a csv file:
