@@ -14,6 +14,8 @@ def main():
 
 
 def add_pedal():
+    # TODO: test
+
     name = input('Enter the pedal name: ')
     print('Enter the parts (press enter twice to finish):')
 
