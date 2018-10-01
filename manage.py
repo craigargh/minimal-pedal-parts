@@ -1,7 +1,19 @@
+import argparse
+
 from pedalparts import part, pedal
 
 
-def create_pedal():
+def main():
+    parser = argparse.ArgumentParser()
+    parser.add_argument('mode')
+
+    args = parser.parse_args()
+
+    if args.mode == 'add_pedal':
+        add_pedal()
+
+
+def add_pedal():
     name = input('Enter the pedal name: ')
     print('Enter the parts (press enter twice to finish):')
 
@@ -18,3 +30,7 @@ def create_pedal():
     new_pedal = pedal.create(name, parts)
 
     pedal.save(new_pedal)
+
+
+if __name__ == '__main__':
+    main()

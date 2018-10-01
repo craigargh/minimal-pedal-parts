@@ -2,6 +2,8 @@ import copy
 
 
 def parse(raw_part):
+    # TODO: Lowercase category
+
     split = raw_part.split(', ')
 
     try:
@@ -53,3 +55,11 @@ def update_qty(parts_list, new_part):
 
 def is_same(part_1, part_2):
     return part_1['category'] == part_2['category'] and part_1['value'] == part_2['value']
+
+
+def save(parts_list):
+    pass
+
+
+def load_all():
+    return []

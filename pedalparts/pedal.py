@@ -9,11 +9,13 @@ def create(name, parts) -> dict:
 
 
 def save(pedal):
+    # TODO: Check for duplicate pedal names
+
     pedals = load_all()
     pedals.append(pedal)
 
     with open('pedals.json', 'w+') as pedals_file:
-        json.dump(pedals, pedals_file)
+        json.dump(pedals, pedals_file, indent=2)
 
 
 def load_all() -> list:
