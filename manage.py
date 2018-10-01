@@ -33,6 +33,8 @@ def add_pedal():
 
     pedal.save(new_pedal)
 
+    print(f'Saved {name}')
+
 
 if __name__ == '__main__':
     main()
