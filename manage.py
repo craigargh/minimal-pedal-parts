@@ -5,7 +5,7 @@ from pedalparts import part, pedal
 
 def main():
     parser = argparse.ArgumentParser()
-    parser.add_argument('mode')
+    parser.add_argument('mode', choices=['add_pedal'])
 
     args = parser.parse_args()
 
