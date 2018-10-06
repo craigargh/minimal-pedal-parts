@@ -1,11 +1,11 @@
 from unittest import TestCase
 
-from pedalparts import part
+from pedalparts import parttools
 
 
 class TestParsePart(TestCase):
     def test_part_with_quantity_is_parsed(self):
-        result = part.parse('resistor, 10k, 3')
+        result = parttools.parse('resistor, 10k, 3')
 
         expected = {
             'category': 'resistor',
@@ -16,7 +16,7 @@ class TestParsePart(TestCase):
         self.assertEqual(expected, result)
 
     def test_quantity_defaults_to_1(self):
-        result = part.parse('resistor, 10k')
+        result = parttools.parse('resistor, 10k')
 
         expected = {
             'category': 'resistor',
@@ -35,7 +35,7 @@ class TestAddPartToList(TestCase):
             'qty': 1,
         }
 
-        result = part.add_part([], new_part)
+        result = parttools.add_part([], new_part)
 
         self.assertEqual([new_part], result)
 
@@ -45,7 +45,7 @@ class TestAddPartToList(TestCase):
         ]
         new_part = {'category': 'resistor', 'value': '10k', 'qty': 1}
 
-        result = part.add_part(existing_parts, new_part)
+        result = parttools.add_part(existing_parts, new_part)
 
         expected = [
             {'category': 'resistor', 'value': '240k', 'qty': 1},
@@ -60,7 +60,7 @@ class TestAddPartToList(TestCase):
         ]
         new_part = {'category': 'resistor', 'value': '10k', 'qty': 1}
 
-        result = part.add_part(existing_parts, new_part)
+        result = parttools.add_part(existing_parts, new_part)
 
         expected = [
             {'category': 'resistor', 'value': '10k', 'qty': 2},

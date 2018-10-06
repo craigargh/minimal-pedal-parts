@@ -46,12 +46,6 @@ resistor, 100k
 Saved Angry Green Box
 ```
 
-Add a pedal from a csv file:
-
-```shell
-python manage.py --name Angry Green Box --file parts.csv
-```
-
 
 ### Output Missing Part List
 

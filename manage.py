@@ -1,6 +1,6 @@
 import argparse
 
-from pedalparts import part, pedal
+from pedalparts import parttools, pedaltools
 
 
 def main():
@@ -24,13 +24,13 @@ def add_pedal():
     raw_part = input('')
 
     while raw_part != '':
-        new_part = part.parse(raw_part)
+        new_part = parttools.parse(raw_part)
         parts.append(new_part)
 
         raw_part = input('')
 
-    new_pedal = pedal.create(name, parts)
-    pedal.save(new_pedal)
+    new_pedal = pedaltools.create(name, parts)
+    pedaltools.save(new_pedal)
 
     print(f'Saved {name}')
 
