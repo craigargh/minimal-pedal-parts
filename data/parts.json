@@ -2,7 +2,7 @@
   {
     "category": "resistor",
     "value": "120",
-    "qty": 100
+    "qty": 140
   },
   {
     "category": "capacitor",
@@ -13,5 +13,365 @@
     "category": "capacitor",
     "value": "1u",
     "qty": 10
+  },
+  {
+    "category": "resistor",
+    "value": "1",
+    "qty": 20
+  },
+  {
+    "category": "resistor",
+    "value": "1K2 20",
+    "qty": 1
+  },
+  {
+    "category": "resistor",
+    "value": "1K5 20",
+    "qty": 1
+  },
+  {
+    "category": "resistor",
+    "value": "1K8 20",
+    "qty": 1
+  },
+  {
+    "category": "resistor",
+    "value": "2K2 20",
+    "qty": 1
+  },
+  {
+    "category": "resistor",
+    "value": "2K7 20",
+    "qty": 1
+  },
+  {
+    "category": "resistor",
+    "value": "3K3 20",
+    "qty": 1
+  },
+  {
+    "category": "resistor",
+    "value": "3K9 20",
+    "qty": 1
+  },
+  {
+    "category": "resistor",
+    "value": "4K7 20",
+    "qty": 1
+  },
+  {
+    "category": "resistor",
+    "value": "5K6 20",
+    "qty": 1
+  },
+  {
+    "category": "resistor",
+    "value": "6K8 20",
+    "qty": 1
+  },
+  {
+    "category": "resistor",
+    "value": "8R2",
+    "qty": 20
+  },
+  {
+    "category": "resistor",
+    "value": "10",
+    "qty": 20
+  },
+  {
+    "category": "resistor",
+    "value": "12",
+    "qty": 20
+  },
+  {
+    "category": "resistor",
+    "value": "15",
+    "qty": 20
+  },
+  {
+    "category": "resistor",
+    "value": "18",
+    "qty": 20
+  },
+  {
+    "category": "resistor",
+    "value": "22",
+    "qty": 20
+  },
+  {
+    "category": "resistor",
+    "value": "27",
+    "qty": 20
+  },
+  {
+    "category": "resistor",
+    "value": "33",
+    "qty": 20
+  },
+  {
+    "category": "resistor",
+    "value": "39",
+    "qty": 20
+  },
+  {
+    "category": "resistor",
+    "value": "47",
+    "qty": 20
+  },
+  {
+    "category": "resistor",
+    "value": "56",
+    "qty": 20
+  },
+  {
+    "category": "resistor",
+    "value": "68",
+    "qty": 20
+  },
+  {
+    "category": "resistor",
+    "value": "82",
+    "qty": 20
+  },
+  {
+    "category": "resistor",
+    "value": "100",
+    "qty": 20
+  },
+  {
+    "category": "resistor",
+    "value": "150",
+    "qty": 20
+  },
+  {
+    "category": "resistor",
+    "value": "180",
+    "qty": 20
+  },
+  {
+    "category": "resistor",
+    "value": "220",
+    "qty": 20
+  },
+  {
+    "category": "resistor",
+    "value": "270",
+    "qty": 20
+  },
+  {
+    "category": "resistor",
+    "value": "330",
+    "qty": 20
+  },
+  {
+    "category": "resistor",
+    "value": "390",
+    "qty": 20
+  },
+  {
+    "category": "resistor",
+    "value": "470",
+    "qty": 20
+  },
+  {
+    "category": "resistor",
+    "value": "560",
+    "qty": 20
+  },
+  {
+    "category": "resistor",
+    "value": "680",
+    "qty": 20
+  },
+  {
+    "category": "resistor",
+    "value": "820",
+    "qty": 20
+  },
+  {
+    "category": "resistor",
+    "value": "1K",
+    "qty": 20
+  },
+  {
+    "category": "resistor",
+    "value": "1K2",
+    "qty": 20
+  },
+  {
+    "category": "resistor",
+    "value": "1K5",
+    "qty": 20
+  },
+  {
+    "category": "resistor",
+    "value": "1K8",
+    "qty": 20
+  },
+  {
+    "category": "resistor",
+    "value": "2K2",
+    "qty": 20
+  },
+  {
+    "category": "resistor",
+    "value": "2K7",
+    "qty": 20
+  },
+  {
+    "category": "resistor",
+    "value": "3K3",
+    "qty": 20
+  },
+  {
+    "category": "resistor",
+    "value": "3K9",
+    "qty": 20
+  },
+  {
+    "category": "resistor",
+    "value": "4K7",
+    "qty": 20
+  },
+  {
+    "category": "resistor",
+    "value": "5K6",
+    "qty": 20
+  },
+  {
+    "category": "resistor",
+    "value": "6K8",
+    "qty": 20
+  },
+  {
+    "category": "resistor",
+    "value": "8K2",
+    "qty": 20
+  },
+  {
+    "category": "resistor",
+    "value": "10K",
+    "qty": 20
+  },
+  {
+    "category": "resistor",
+    "value": "12K",
+    "qty": 20
+  },
+  {
+    "category": "resistor",
+    "value": "15K",
+    "qty": 20
+  },
+  {
+    "category": "resistor",
+    "value": "18K",
+    "qty": 20
+  },
+  {
+    "category": "resistor",
+    "value": "22K",
+    "qty": 20
+  },
+  {
+    "category": "resistor",
+    "value": "27K",
+    "qty": 20
+  },
+  {
+    "category": "resistor",
+    "value": "33K",
+    "qty": 20
+  },
+  {
+    "category": "resistor",
+    "value": "39K",
+    "qty": 20
+  },
+  {
+    "category": "resistor",
+    "value": "47K",
+    "qty": 20
+  },
+  {
+    "category": "resistor",
+    "value": "56K",
+    "qty": 20
+  },
+  {
+    "category": "resistor",
+    "value": "68K",
+    "qty": 20
+  },
+  {
+    "category": "resistor",
+    "value": "82K",
+    "qty": 20
+  },
+  {
+    "category": "resistor",
+    "value": "100K",
+    "qty": 20
+  },
+  {
+    "category": "resistor",
+    "value": "120K",
+    "qty": 20
+  },
+  {
+    "category": "resistor",
+    "value": "150K",
+    "qty": 20
+  },
+  {
+    "category": "resistor",
+    "value": "180K",
+    "qty": 20
+  },
+  {
+    "category": "resistor",
+    "value": "220K",
+    "qty": 20
+  },
+  {
+    "category": "resistor",
+    "value": "270K",
+    "qty": 20
+  },
+  {
+    "category": "resistor",
+    "value": "330K",
+    "qty": 20
+  },
+  {
+    "category": "resistor",
+    "value": "390K",
+    "qty": 20
+  },
+  {
+    "category": "resistor",
+    "value": "470K",
+    "qty": 20
+  },
+  {
+    "category": "resistor",
+    "value": "560K",
+    "qty": 20
+  },
+  {
+    "category": "resistor",
+    "value": "680K",
+    "qty": 20
+  },
+  {
+    "category": "resistor",
+    "value": "820K",
+    "qty": 20
+  },
+  {
+    "category": "resistor",
+    "value": "1M",
+    "qty": 20
   }
 ]
