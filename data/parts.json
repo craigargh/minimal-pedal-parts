@@ -6,12 +6,12 @@
   },
   {
     "category": "capacitor",
-    "value": "10uF",
+    "value": "10u",
     "qty": 22
   },
   {
     "category": "capacitor",
-    "value": "1uF",
+    "value": "1u",
     "qty": 10
   }
 ]
