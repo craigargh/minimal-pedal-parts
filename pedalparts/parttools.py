@@ -23,11 +23,11 @@ def parse(raw_part):
 def save(part):
     existing_parts = load_all()
     all_parts = add_part(existing_parts, part)
-    files.save('parts.json', all_parts)
+    files.save('data/parts.json', all_parts)
 
 
 def load_all():
-    return files.load('parts.json')
+    return files.load('data/parts.json')
 
 
 def add_part(parts_list, part):

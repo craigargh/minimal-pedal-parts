@@ -16,12 +16,12 @@ def save(pedal):
     pedals = load_all()
     pedals.append(pedal)
 
-    files.save('pedals.json', pedals)
+    files.save('data/pedals.json', pedals)
 
 
 def load_all() -> list:
     """ loads pedals from json file """
-    return files.load('pedals.json')
+    return files.load('data/pedals.json')
 
 
 def list_missing_parts(pedals, parts) -> list:
