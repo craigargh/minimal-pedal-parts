@@ -1,6 +1,6 @@
 import json
 
-from pedalparts import parttools
+from pedalparts import parttools, files
 
 
 def create(name, parts) -> dict:
@@ -16,20 +16,12 @@ def save(pedal):
     pedals = load_all()
     pedals.append(pedal)
 
-    with open('pedals.json', 'w+') as pedals_file:
-        json.dump(pedals, pedals_file, indent=2)
+    files.save('pedals.json', pedals)
 
 
 def load_all() -> list:
     """ loads pedals from json file """
-    try:
-        with open('pedals.json', 'r') as pedals_file:
-            pedals = json.load(pedals_file)
-
-    except FileNotFoundError:
-        pedals = []
-
-    return pedals
+    return files.load('pedals.json')
 
 
 def list_missing_parts(pedals, parts) -> list:

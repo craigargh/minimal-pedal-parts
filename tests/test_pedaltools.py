@@ -24,9 +24,7 @@ class TestCreatePedal(TestCase):
 
 class TestSavePedal(TestCase):
     def setUp(self):
-        self.json_load_mock = patch('pedalparts.pedaltools.json.load').start()
-        self.open_mock = patch('pedalparts.pedaltools.open').start()
-        self.json_save_mock = patch('pedalparts.pedaltools.json.dump').start()
+        self.files_mock = patch('pedalparts.pedaltools.files').start()
 
         self.addCleanup(patch.stopall)
 
@@ -38,28 +36,22 @@ class TestSavePedal(TestCase):
 
         pedaltools.save(new_pedal)
 
-        open_context_manager = self.open_mock.return_value \
-            .__enter__.return_value
-
-        self.json_load_mock.assert_called_once_with(open_context_manager)
+        self.files_mock.load.assert_called_once_with('pedals.json')
 
     def test_new_pedal_is_added_to_loaded_pedals_and_saved(self):
-        self.json_load_mock.return_value = [
+        self.files_mock.load.return_value = [
             {'name': 'round boy', 'parts': []}
         ]
 
         new_pedal = {'name': 'Hot take', 'parts': []}
         pedaltools.save(new_pedal)
 
-        open_context_manager = self.open_mock.return_value \
-            .__enter__.return_value
-
         expected = [
             {'name': 'round boy', 'parts': []},
             {'name': 'Hot take', 'parts': []},
         ]
 
-        self.json_save_mock.assert_called_once_with(expected, open_context_manager, indent=2)
+        self.files_mock.save.assert_called_once_with('pedals.json', expected)
 
 
 class TestMissingParts(TestCase):
