@@ -1,0 +1,332 @@
+[
+  {
+    "name": "DOD 250",
+    "parts": [
+      {
+        "category": "resistor",
+        "value": "10K",
+        "qty": 1
+      },
+      {
+        "category": "resistor",
+        "value": "1M",
+        "qty": 1
+      },
+      {
+        "category": "resistor",
+        "value": "4K7",
+        "qty": 1
+      },
+      {
+        "category": "resistor",
+        "value": "10K",
+        "qty": 1
+      },
+      {
+        "category": "resistor",
+        "value": "1M",
+        "qty": 1
+      },
+      {
+        "category": "resistor",
+        "value": "1M",
+        "qty": 1
+      },
+      {
+        "category": "resistor",
+        "value": "1M",
+        "qty": 1
+      },
+      {
+        "category": "capacitor",
+        "value": "1nF",
+        "qty": 1
+      },
+      {
+        "category": "capacitor",
+        "value": "10nF",
+        "qty": 1
+      },
+      {
+        "category": "capacitor",
+        "value": "47nF",
+        "qty": 1
+      },
+      {
+        "category": "capacitor",
+        "value": "1uF",
+        "qty": 1
+      },
+      {
+        "category": "capacitor",
+        "value": "1nF",
+        "qty": 1
+      },
+      {
+        "category": "capacitor",
+        "value": "1uF",
+        "qty": 1
+      },
+      {
+        "category": "capacitor",
+        "value": "47uF",
+        "qty": 1
+      },
+      {
+        "category": "IC",
+        "value": "LM741",
+        "qty": 1
+      },
+      {
+        "category": "diode",
+        "value": "1N270",
+        "qty": 1
+      },
+      {
+        "category": "diode",
+        "value": "1N270",
+        "qty": 1
+      },
+      {
+        "category": "diode",
+        "value": "3mm LED",
+        "qty": 1
+      },
+      {
+        "category": "pot",
+        "value": "A10K",
+        "qty": 1
+      },
+      {
+        "category": "pot",
+        "value": "B1M",
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "name": "Angry Charlie",
+    "parts": [
+      {
+        "category": "resistor",
+        "value": "1M",
+        "qty": 1
+      },
+      {
+        "category": "resistor",
+        "value": "1K",
+        "qty": 1
+      },
+      {
+        "category": "resistor",
+        "value": "1K",
+        "qty": 1
+      },
+      {
+        "category": "resistor",
+        "value": "4K7",
+        "qty": 1
+      },
+      {
+        "category": "resistor",
+        "value": "10K",
+        "qty": 1
+      },
+      {
+        "category": "resistor",
+        "value": "1M",
+        "qty": 1
+      },
+      {
+        "category": "resistor",
+        "value": "22K",
+        "qty": 1
+      },
+      {
+        "category": "resistor",
+        "value": "22K",
+        "qty": 1
+      },
+      {
+        "category": "resistor",
+        "value": "1M",
+        "qty": 1
+      },
+      {
+        "category": "resistor",
+        "value": "470",
+        "qty": 1
+      },
+      {
+        "category": "resistor",
+        "value": "6K8",
+        "qty": 1
+      },
+      {
+        "category": "resistor",
+        "value": "2K2",
+        "qty": 1
+      },
+      {
+        "category": "resistor",
+        "value": "6K8",
+        "qty": 1
+      },
+      {
+        "category": "resistor",
+        "value": "68K",
+        "qty": 1
+      },
+      {
+        "category": "resistor",
+        "value": "2K2",
+        "qty": 1
+      },
+      {
+        "category": "resistor",
+        "value": "15K",
+        "qty": 1
+      },
+      {
+        "category": "resistor",
+        "value": "6K8",
+        "qty": 1
+      },
+      {
+        "category": "resistor",
+        "value": "6K8",
+        "qty": 1
+      },
+      {
+        "category": "capacitor",
+        "value": "22n",
+        "qty": 1
+      },
+      {
+        "category": "capacitor",
+        "value": "1n",
+        "qty": 1
+      },
+      {
+        "category": "capacitor",
+        "value": "100p",
+        "qty": 1
+      },
+      {
+        "category": "capacitor",
+        "value": "220n",
+        "qty": 1
+      },
+      {
+        "category": "capacitor",
+        "value": "100n",
+        "qty": 1
+      },
+      {
+        "category": "capacitor",
+        "value": "100p",
+        "qty": 1
+      },
+      {
+        "category": "capacitor",
+        "value": "100u",
+        "qty": 1
+      },
+      {
+        "category": "capacitor",
+        "value": "100u",
+        "qty": 1
+      },
+      {
+        "category": "capacitor",
+        "value": "2u2",
+        "qty": 1
+      },
+      {
+        "category": "capacitor",
+        "value": "2u2",
+        "qty": 1
+      },
+      {
+        "category": "capacitor",
+        "value": "47n",
+        "qty": 1
+      },
+      {
+        "category": "capacitor",
+        "value": "10n",
+        "qty": 1
+      },
+      {
+        "category": "capacitor",
+        "value": "10n",
+        "qty": 1
+      },
+      {
+        "category": "capacitor",
+        "value": "2u2",
+        "qty": 1
+      },
+      {
+        "category": "capacitor",
+        "value": "22n",
+        "qty": 1
+      },
+      {
+        "category": "capacitor",
+        "value": "2n2",
+        "qty": 1
+      },
+      {
+        "category": "IC",
+        "value": "LM833",
+        "qty": 1
+      },
+      {
+        "category": "IC",
+        "value": "TL072",
+        "qty": 1
+      },
+      {
+        "category": "diode",
+        "value": "1N5817",
+        "qty": 1
+      },
+      {
+        "category": "diode",
+        "value": "3mm Red LED",
+        "qty": 1
+      },
+      {
+        "category": "diode",
+        "value": "3mm Red LED",
+        "qty": 1
+      },
+      {
+        "category": "pot",
+        "value": "A100K",
+        "qty": 1
+      },
+      {
+        "category": "pot",
+        "value": "B100K",
+        "qty": 1
+      },
+      {
+        "category": "pot",
+        "value": "B100K",
+        "qty": 1
+      },
+      {
+        "category": "pot",
+        "value": "B25K",
+        "qty": 1
+      },
+      {
+        "category": "pot",
+        "value": "B25K",
+        "qty": 1
+      }
+    ]
+  }
+]

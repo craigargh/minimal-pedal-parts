@@ -1,0 +1,17 @@
+[
+  {
+    "category": "resistor",
+    "value": "120",
+    "qty": 100
+  },
+  {
+    "category": "capacitor",
+    "value": "10uF",
+    "qty": 22
+  },
+  {
+    "category": "capacitor",
+    "value": "1uF",
+    "qty": 10
+  }
+]
