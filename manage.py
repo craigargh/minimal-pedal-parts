@@ -7,6 +7,9 @@ def main():
     parser = argparse.ArgumentParser()
     parser.add_argument('mode', choices=['add_pedal', 'add_part', 'missing'])
 
+    parser.add_argument('--name', required=False)
+    parser.add_argument('--file', required=False)
+
     parser.add_argument('--pedals', required=False, nargs='*')
 
     parser.add_argument('--category', required=False)
@@ -16,7 +19,7 @@ def main():
     args = parser.parse_args()
 
     if args.mode == 'add_pedal':
-        add_pedal()
+        add_pedal(args.name, args.file)
 
     elif args.mode == 'missing':
         list_missing_parts(args.pedals)
@@ -25,21 +28,15 @@ def main():
         add_part(args.category, args.value, args.qty)
 
 
-def add_pedal():
-    # TODO: test
-
-    name = input('Enter the pedal name: ')
-    print('Enter the parts (press enter twice to finish):')
-
+def add_pedal(name, file):
     parts = []
 
-    raw_part = input('')
+    with open(file, 'r') as parts_file:
+        raw_parts = parts_file.readlines()
 
-    while raw_part != '':
+    for raw_part in raw_parts:
         new_part = parttools.parse(raw_part)
         parts.append(new_part)
-
-        raw_part = input('')
 
     new_pedal = pedaltools.create(name, parts)
     pedaltools.save(new_pedal)

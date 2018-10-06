@@ -15,7 +15,7 @@ def parse(raw_part):
 
     return {
         'category': split[0],
-        'value': split[1],
+        'value': split[1].strip(),
         'qty': qty,
     }
 
