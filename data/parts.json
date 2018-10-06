@@ -608,5 +608,45 @@
     "category": "IC",
     "value": "Spin FV1",
     "qty": 1
+  },
+  {
+    "category": "IC",
+    "value": "24LC32A",
+    "qty": 2
+  },
+  {
+    "category": "IC",
+    "value": "TL082",
+    "qty": 5
+  },
+  {
+    "category": "IC",
+    "value": "TL072",
+    "qty": 10
+  },
+  {
+    "category": "IC",
+    "value": "LM741",
+    "qty": 5
+  },
+  {
+    "category": "IC",
+    "value": "LM833",
+    "qty": 2
+  },
+  {
+    "category": "IC",
+    "value": "OPA2134",
+    "qty": 2
+  },
+  {
+    "category": "IC",
+    "value": "PT2399",
+    "qty": 10
+  },
+  {
+    "category": "IC",
+    "value": "LM308",
+    "qty": 2
   }
 ]

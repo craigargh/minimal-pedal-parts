@@ -1178,7 +1178,7 @@
         "qty": 1
       },
       {
-        "category": "IC",
+        "category": "transistor",
         "value": "L78L33",
         "qty": 1
       },
@@ -1443,7 +1443,7 @@
         "qty": 1
       },
       {
-        "category": "IC",
+        "category": "transistor",
         "value": "L78L05",
         "qty": 1
       },
@@ -1458,7 +1458,7 @@
         "qty": 1
       },
       {
-        "category": "IC",
+        "category": "transistor",
         "value": "L78L05",
         "qty": 1
       },
