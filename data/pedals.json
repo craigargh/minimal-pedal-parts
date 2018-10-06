@@ -533,5 +533,1100 @@
         "qty": 1
       }
     ]
+  },
+  {
+    "name": "OCD",
+    "parts": [
+      {
+        "category": "resistor",
+        "value": "1M",
+        "qty": 1
+      },
+      {
+        "category": "resistor",
+        "value": "10K",
+        "qty": 1
+      },
+      {
+        "category": "resistor",
+        "value": "1M",
+        "qty": 1
+      },
+      {
+        "category": "resistor",
+        "value": "3K3",
+        "qty": 1
+      },
+      {
+        "category": "resistor",
+        "value": "100",
+        "qty": 1
+      },
+      {
+        "category": "resistor",
+        "value": "18K",
+        "qty": 1
+      },
+      {
+        "category": "resistor",
+        "value": "10K",
+        "qty": 1
+      },
+      {
+        "category": "resistor",
+        "value": "10K",
+        "qty": 1
+      },
+      {
+        "category": "resistor",
+        "value": "39K",
+        "qty": 1
+      },
+      {
+        "category": "resistor",
+        "value": "150K",
+        "qty": 1
+      },
+      {
+        "category": "resistor",
+        "value": "22K",
+        "qty": 1
+      },
+      {
+        "category": "resistor",
+        "value": "33K",
+        "qty": 1
+      },
+      {
+        "category": "resistor",
+        "value": "1K",
+        "qty": 1
+      },
+      {
+        "category": "resistor",
+        "value": "510K",
+        "qty": 1
+      },
+      {
+        "category": "resistor",
+        "value": "10K",
+        "qty": 1
+      },
+      {
+        "category": "resistor",
+        "value": "100",
+        "qty": 1
+      },
+      {
+        "category": "resistor",
+        "value": "47K",
+        "qty": 1
+      },
+      {
+        "category": "resistor",
+        "value": "27",
+        "qty": 1
+      },
+      {
+        "category": "resistor",
+        "value": "10K",
+        "qty": 1
+      },
+      {
+        "category": "resistor",
+        "value": "10K",
+        "qty": 1
+      },
+      {
+        "category": "resistor",
+        "value": "10K",
+        "qty": 1
+      },
+      {
+        "category": "resistor",
+        "value": "10K",
+        "qty": 1
+      },
+      {
+        "category": "resistor",
+        "value": "1K",
+        "qty": 1
+      },
+      {
+        "category": "resistor",
+        "value": "27K",
+        "qty": 1
+      },
+      {
+        "category": "resistor",
+        "value": "10K",
+        "qty": 1
+      },
+      {
+        "category": "resistor",
+        "value": "1M",
+        "qty": 1
+      },
+      {
+        "category": "resistor",
+        "value": "10K",
+        "qty": 1
+      },
+      {
+        "category": "resistor",
+        "value": "10K",
+        "qty": 1
+      },
+      {
+        "category": "resistor",
+        "value": "1K",
+        "qty": 1
+      },
+      {
+        "category": "resistor",
+        "value": "27K",
+        "qty": 1
+      },
+      {
+        "category": "resistor",
+        "value": "47K",
+        "qty": 1
+      },
+      {
+        "category": "resistor",
+        "value": "4K7",
+        "qty": 1
+      },
+      {
+        "category": "capacitor",
+        "value": "22n",
+        "qty": 1
+      },
+      {
+        "category": "capacitor",
+        "value": "100n",
+        "qty": 1
+      },
+      {
+        "category": "capacitor",
+        "value": "220p",
+        "qty": 1
+      },
+      {
+        "category": "capacitor",
+        "value": "1n",
+        "qty": 1
+      },
+      {
+        "category": "capacitor",
+        "value": "100n",
+        "qty": 1
+      },
+      {
+        "category": "capacitor",
+        "value": "220p",
+        "qty": 1
+      },
+      {
+        "category": "capacitor",
+        "value": "1u",
+        "qty": 1
+      },
+      {
+        "category": "capacitor",
+        "value": "22n",
+        "qty": 1
+      },
+      {
+        "category": "capacitor",
+        "value": "100n",
+        "qty": 1
+      },
+      {
+        "category": "capacitor",
+        "value": "1u",
+        "qty": 1
+      },
+      {
+        "category": "capacitor",
+        "value": "220u",
+        "qty": 1
+      },
+      {
+        "category": "capacitor",
+        "value": "220u",
+        "qty": 1
+      },
+      {
+        "category": "capacitor",
+        "value": "22n",
+        "qty": 1
+      },
+      {
+        "category": "capacitor",
+        "value": "10u",
+        "qty": 1
+      },
+      {
+        "category": "capacitor",
+        "value": "10u",
+        "qty": 1
+      },
+      {
+        "category": "capacitor",
+        "value": "1u",
+        "qty": 1
+      },
+      {
+        "category": "IC",
+        "value": "TL082",
+        "qty": 1
+      },
+      {
+        "category": "transistor",
+        "value": "2N7000",
+        "qty": 1
+      },
+      {
+        "category": "transistor",
+        "value": "2N7000",
+        "qty": 1
+      },
+      {
+        "category": "transistor",
+        "value": "2SC1815",
+        "qty": 1
+      },
+      {
+        "category": "transistor",
+        "value": "2N5457",
+        "qty": 1
+      },
+      {
+        "category": "transistor",
+        "value": "2N5457",
+        "qty": 1
+      },
+      {
+        "category": "diode",
+        "value": "1N5817",
+        "qty": 1
+      },
+      {
+        "category": "diode",
+        "value": "1N4739",
+        "qty": 1
+      },
+      {
+        "category": "pot",
+        "value": "A100K",
+        "qty": 1
+      },
+      {
+        "category": "pot",
+        "value": "B10K",
+        "qty": 1
+      },
+      {
+        "category": "pot",
+        "value": "A1M",
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "name": "Rat",
+    "parts": [
+      {
+        "category": "resistor",
+        "value": "1M",
+        "qty": 1
+      },
+      {
+        "category": "resistor",
+        "value": "1M",
+        "qty": 1
+      },
+      {
+        "category": "resistor",
+        "value": "560",
+        "qty": 1
+      },
+      {
+        "category": "resistor",
+        "value": "1K",
+        "qty": 1
+      },
+      {
+        "category": "resistor",
+        "value": "47",
+        "qty": 1
+      },
+      {
+        "category": "resistor",
+        "value": "1K",
+        "qty": 1
+      },
+      {
+        "category": "resistor",
+        "value": "1K5",
+        "qty": 1
+      },
+      {
+        "category": "resistor",
+        "value": "1M",
+        "qty": 1
+      },
+      {
+        "category": "resistor",
+        "value": "10K",
+        "qty": 1
+      },
+      {
+        "category": "resistor",
+        "value": "4K7",
+        "qty": 1
+      },
+      {
+        "category": "resistor",
+        "value": "100K",
+        "qty": 1
+      },
+      {
+        "category": "resistor",
+        "value": "100K",
+        "qty": 1
+      },
+      {
+        "category": "capacitor",
+        "value": "22n",
+        "qty": 1
+      },
+      {
+        "category": "capacitor",
+        "value": "4u7",
+        "qty": 1
+      },
+      {
+        "category": "capacitor",
+        "value": "2u2",
+        "qty": 1
+      },
+      {
+        "category": "capacitor",
+        "value": "1n",
+        "qty": 1
+      },
+      {
+        "category": "capacitor",
+        "value": "100p",
+        "qty": 1
+      },
+      {
+        "category": "capacitor",
+        "value": "30p",
+        "qty": 1
+      },
+      {
+        "category": "capacitor",
+        "value": "4u7",
+        "qty": 1
+      },
+      {
+        "category": "capacitor",
+        "value": "3n3",
+        "qty": 1
+      },
+      {
+        "category": "capacitor",
+        "value": "22n",
+        "qty": 1
+      },
+      {
+        "category": "capacitor",
+        "value": "1u",
+        "qty": 1
+      },
+      {
+        "category": "capacitor",
+        "value": "100u",
+        "qty": 1
+      },
+      {
+        "category": "capacitor",
+        "value": "1u",
+        "qty": 1
+      },
+      {
+        "category": "IC",
+        "value": "LM308",
+        "qty": 1
+      },
+      {
+        "category": "transistor",
+        "value": "2N5458",
+        "qty": 1
+      },
+      {
+        "category": "diode",
+        "value": "1N914",
+        "qty": 1
+      },
+      {
+        "category": "diode",
+        "value": "1N914",
+        "qty": 1
+      },
+      {
+        "category": "diode",
+        "value": "1N5817",
+        "qty": 1
+      },
+      {
+        "category": "diode",
+        "value": "3mm Red LED",
+        "qty": 1
+      },
+      {
+        "category": "pot",
+        "value": "A100K",
+        "qty": 1
+      },
+      {
+        "category": "pot",
+        "value": "A100K",
+        "qty": 1
+      },
+      {
+        "category": "pot",
+        "value": "A100K",
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "name": "Organizer",
+    "parts": [
+      {
+        "category": "resistor",
+        "value": "1M",
+        "qty": 1
+      },
+      {
+        "category": "resistor",
+        "value": "100K",
+        "qty": 1
+      },
+      {
+        "category": "resistor",
+        "value": "1K",
+        "qty": 1
+      },
+      {
+        "category": "resistor",
+        "value": "100K",
+        "qty": 1
+      },
+      {
+        "category": "resistor",
+        "value": "10K",
+        "qty": 1
+      },
+      {
+        "category": "resistor",
+        "value": "100K",
+        "qty": 1
+      },
+      {
+        "category": "resistor",
+        "value": "100",
+        "qty": 1
+      },
+      {
+        "category": "resistor",
+        "value": "100K",
+        "qty": 1
+      },
+      {
+        "category": "resistor",
+        "value": "1K",
+        "qty": 1
+      },
+      {
+        "category": "resistor",
+        "value": "4K7",
+        "qty": 1
+      },
+      {
+        "category": "resistor",
+        "value": "10K",
+        "qty": 1
+      },
+      {
+        "category": "resistor",
+        "value": "10K",
+        "qty": 1
+      },
+      {
+        "category": "resistor",
+        "value": "100K",
+        "qty": 1
+      },
+      {
+        "category": "capacitor",
+        "value": "100n",
+        "qty": 1
+      },
+      {
+        "category": "capacitor",
+        "value": "1u",
+        "qty": 1
+      },
+      {
+        "category": "capacitor",
+        "value": "1u",
+        "qty": 1
+      },
+      {
+        "category": "capacitor",
+        "value": "1n",
+        "qty": 1
+      },
+      {
+        "category": "capacitor",
+        "value": "1u",
+        "qty": 1
+      },
+      {
+        "category": "capacitor",
+        "value": "10u",
+        "qty": 1
+      },
+      {
+        "category": "capacitor",
+        "value": "15p",
+        "qty": 1
+      },
+      {
+        "category": "capacitor",
+        "value": "1u",
+        "qty": 1
+      },
+      {
+        "category": "capacitor",
+        "value": "1u",
+        "qty": 1
+      },
+      {
+        "category": "capacitor",
+        "value": "1u",
+        "qty": 1
+      },
+      {
+        "category": "capacitor",
+        "value": "2n2",
+        "qty": 1
+      },
+      {
+        "category": "capacitor",
+        "value": "1u",
+        "qty": 1
+      },
+      {
+        "category": "capacitor",
+        "value": "1u",
+        "qty": 1
+      },
+      {
+        "category": "capacitor",
+        "value": "1u",
+        "qty": 1
+      },
+      {
+        "category": "capacitor",
+        "value": "100u",
+        "qty": 1
+      },
+      {
+        "category": "capacitor",
+        "value": "47u",
+        "qty": 1
+      },
+      {
+        "category": "capacitor",
+        "value": "47u",
+        "qty": 1
+      },
+      {
+        "category": "IC",
+        "value": "TL072",
+        "qty": 1
+      },
+      {
+        "category": "IC",
+        "value": "24LC32A",
+        "qty": 1
+      },
+      {
+        "category": "IC",
+        "value": "Spin FV1",
+        "qty": 1
+      },
+      {
+        "category": "IC",
+        "value": "TL072",
+        "qty": 1
+      },
+      {
+        "category": "IC",
+        "value": "L78L33",
+        "qty": 1
+      },
+      {
+        "category": "diode",
+        "value": "1N5817",
+        "qty": 1
+      },
+      {
+        "category": "crystal",
+        "value": "32.768KHz (DT-38)",
+        "qty": 1
+      },
+      {
+        "category": "pot",
+        "value": "B100K",
+        "qty": 1
+      },
+      {
+        "category": "pot",
+        "value": "B100K",
+        "qty": 1
+      },
+      {
+        "category": "pot",
+        "value": "B100K",
+        "qty": 1
+      },
+      {
+        "category": "pot",
+        "value": "B100K",
+        "qty": 1
+      },
+      {
+        "category": "pot",
+        "value": "B100K",
+        "qty": 1
+      },
+      {
+        "category": "pot",
+        "value": "B100K",
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "name": "Ghost Echo",
+    "parts": [
+      {
+        "category": "resistor",
+        "value": "1M",
+        "qty": 1
+      },
+      {
+        "category": "resistor",
+        "value": "1M",
+        "qty": 1
+      },
+      {
+        "category": "resistor",
+        "value": "12K",
+        "qty": 1
+      },
+      {
+        "category": "resistor",
+        "value": "10K",
+        "qty": 1
+      },
+      {
+        "category": "resistor",
+        "value": "10K",
+        "qty": 1
+      },
+      {
+        "category": "resistor",
+        "value": "470",
+        "qty": 1
+      },
+      {
+        "category": "resistor",
+        "value": "100K",
+        "qty": 1
+      },
+      {
+        "category": "resistor",
+        "value": "22K",
+        "qty": 1
+      },
+      {
+        "category": "resistor",
+        "value": "10K",
+        "qty": 1
+      },
+      {
+        "category": "resistor",
+        "value": "10K",
+        "qty": 1
+      },
+      {
+        "category": "resistor",
+        "value": "22K",
+        "qty": 1
+      },
+      {
+        "category": "resistor",
+        "value": "33K",
+        "qty": 1
+      },
+      {
+        "category": "resistor",
+        "value": "10K",
+        "qty": 1
+      },
+      {
+        "category": "resistor",
+        "value": "15K",
+        "qty": 1
+      },
+      {
+        "category": "resistor",
+        "value": "10K",
+        "qty": 1
+      },
+      {
+        "category": "resistor",
+        "value": "15K",
+        "qty": 1
+      },
+      {
+        "category": "resistor",
+        "value": "15K",
+        "qty": 1
+      },
+      {
+        "category": "resistor",
+        "value": "1K",
+        "qty": 1
+      },
+      {
+        "category": "resistor",
+        "value": "22K",
+        "qty": 1
+      },
+      {
+        "category": "resistor",
+        "value": "4K7",
+        "qty": 1
+      },
+      {
+        "category": "resistor",
+        "value": "10K",
+        "qty": 1
+      },
+      {
+        "category": "resistor",
+        "value": "10K",
+        "qty": 1
+      },
+      {
+        "category": "capacitor",
+        "value": "100n",
+        "qty": 1
+      },
+      {
+        "category": "capacitor",
+        "value": "1u",
+        "qty": 1
+      },
+      {
+        "category": "capacitor",
+        "value": "2u2",
+        "qty": 1
+      },
+      {
+        "category": "capacitor",
+        "value": "470n",
+        "qty": 1
+      },
+      {
+        "category": "capacitor",
+        "value": "470n",
+        "qty": 1
+      },
+      {
+        "category": "capacitor",
+        "value": "10u",
+        "qty": 1
+      },
+      {
+        "category": "capacitor",
+        "value": "470n",
+        "qty": 1
+      },
+      {
+        "category": "capacitor",
+        "value": "1n",
+        "qty": 1
+      },
+      {
+        "category": "capacitor",
+        "value": "2n2",
+        "qty": 1
+      },
+      {
+        "category": "capacitor",
+        "value": "100n",
+        "qty": 1
+      },
+      {
+        "category": "capacitor",
+        "value": "10n",
+        "qty": 1
+      },
+      {
+        "category": "capacitor",
+        "value": "100n",
+        "qty": 1
+      },
+      {
+        "category": "capacitor",
+        "value": "100n",
+        "qty": 1
+      },
+      {
+        "category": "capacitor",
+        "value": "100n",
+        "qty": 1
+      },
+      {
+        "category": "capacitor",
+        "value": "10u",
+        "qty": 1
+      },
+      {
+        "category": "capacitor",
+        "value": "100n",
+        "qty": 1
+      },
+      {
+        "category": "capacitor",
+        "value": "100u",
+        "qty": 1
+      },
+      {
+        "category": "capacitor",
+        "value": "100u",
+        "qty": 1
+      },
+      {
+        "category": "capacitor",
+        "value": "10u",
+        "qty": 1
+      },
+      {
+        "category": "IC",
+        "value": "TL072",
+        "qty": 1
+      },
+      {
+        "category": "IC",
+        "value": "BTDR-2H (Long)",
+        "qty": 1
+      },
+      {
+        "category": "IC",
+        "value": "L78L05",
+        "qty": 1
+      },
+      {
+        "category": "IC",
+        "value": "TL072",
+        "qty": 1
+      },
+      {
+        "category": "IC",
+        "value": "PT2399",
+        "qty": 1
+      },
+      {
+        "category": "IC",
+        "value": "L78L05",
+        "qty": 1
+      },
+      {
+        "category": "diode",
+        "value": "1N5817",
+        "qty": 1
+      },
+      {
+        "category": "pot",
+        "value": "B10K",
+        "qty": 1
+      },
+      {
+        "category": "pot",
+        "value": "B2K",
+        "qty": 1
+      },
+      {
+        "category": "pot",
+        "value": "B5K",
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "name": "hummingbird",
+    "parts": [
+      {
+        "category": "resistor",
+        "value": "22K",
+        "qty": 1
+      },
+      {
+        "category": "resistor",
+        "value": "47K",
+        "qty": 1
+      },
+      {
+        "category": "resistor",
+        "value": "100K",
+        "qty": 1
+      },
+      {
+        "category": "resistor",
+        "value": "47K",
+        "qty": 1
+      },
+      {
+        "category": "resistor",
+        "value": "330K",
+        "qty": 1
+      },
+      {
+        "category": "resistor",
+        "value": "39",
+        "qty": 1
+      },
+      {
+        "category": "resistor",
+        "value": "470",
+        "qty": 1
+      },
+      {
+        "category": "resistor",
+        "value": "27K",
+        "qty": 1
+      },
+      {
+        "category": "resistor",
+        "value": "470",
+        "qty": 1
+      },
+      {
+        "category": "resistor",
+        "value": "12K",
+        "qty": 1
+      },
+      {
+        "category": "resistor",
+        "value": "22K",
+        "qty": 1
+      },
+      {
+        "category": "resistor",
+        "value": "100",
+        "qty": 1
+      },
+      {
+        "category": "resistor",
+        "value": "4K7",
+        "qty": 1
+      },
+      {
+        "category": "capacitor",
+        "value": "22n",
+        "qty": 1
+      },
+      {
+        "category": "capacitor",
+        "value": "4u7",
+        "qty": 1
+      },
+      {
+        "category": "capacitor",
+        "value": "1u",
+        "qty": 1
+      },
+      {
+        "category": "capacitor",
+        "value": "100u",
+        "qty": 1
+      },
+      {
+        "category": "capacitor",
+        "value": "4u7",
+        "qty": 1
+      },
+      {
+        "category": "capacitor",
+        "value": "2u2",
+        "qty": 1
+      },
+      {
+        "category": "capacitor",
+        "value": "100u",
+        "qty": 1
+      },
+      {
+        "category": "transistor",
+        "value": "2N5089",
+        "qty": 1
+      },
+      {
+        "category": "transistor",
+        "value": "2N2646",
+        "qty": 1
+      },
+      {
+        "category": "transistor",
+        "value": "2N5457",
+        "qty": 1
+      },
+      {
+        "category": "diode",
+        "value": "1N5817",
+        "qty": 1
+      },
+      {
+        "category": "pot",
+        "value": "B25K",
+        "qty": 1
+      },
+      {
+        "category": "pot",
+        "value": "B50K",
+        "qty": 1
+      },
+      {
+        "category": "pot",
+        "value": "B50K",
+        "qty": 1
+      },
+      {
+        "category": "switch",
+        "value": "SPDT Toggle (On/On)",
+        "qty": 1
+      }
+    ]
   }
 ]
