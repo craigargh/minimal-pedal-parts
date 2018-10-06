@@ -5,16 +5,6 @@
     "qty": 140
   },
   {
-    "category": "capacitor",
-    "value": "10u",
-    "qty": 22
-  },
-  {
-    "category": "capacitor",
-    "value": "1u",
-    "qty": 10
-  },
-  {
     "category": "resistor",
     "value": "1",
     "qty": 20
@@ -373,5 +363,250 @@
     "category": "resistor",
     "value": "1M",
     "qty": 20
+  },
+  {
+    "category": "capacitor",
+    "value": "50p",
+    "qty": 20
+  },
+  {
+    "category": "capacitor",
+    "value": "47n",
+    "qty": 50
+  },
+  {
+    "category": "capacitor",
+    "value": "3n3n",
+    "qty": 20
+  },
+  {
+    "category": "capacitor",
+    "value": "30p",
+    "qty": 20
+  },
+  {
+    "category": "capacitor",
+    "value": "2n2n",
+    "qty": 20
+  },
+  {
+    "category": "capacitor",
+    "value": "22n",
+    "qty": 50
+  },
+  {
+    "category": "capacitor",
+    "value": "220p",
+    "qty": 20
+  },
+  {
+    "category": "capacitor",
+    "value": "1n",
+    "qty": 50
+  },
+  {
+    "category": "capacitor",
+    "value": "15p",
+    "qty": 20
+  },
+  {
+    "category": "capacitor",
+    "value": "10n",
+    "qty": 50
+  },
+  {
+    "category": "capacitor",
+    "value": "100p",
+    "qty": 20
+  },
+  {
+    "category": "capacitor",
+    "value": "100n",
+    "qty": 30
+  },
+  {
+    "category": "capacitor",
+    "value": "0n22",
+    "qty": 30
+  },
+  {
+    "category": "capacitor",
+    "value": "0n33",
+    "qty": 30
+  },
+  {
+    "category": "capacitor",
+    "value": "0n47",
+    "qty": 30
+  },
+  {
+    "category": "capacitor",
+    "value": "0n56",
+    "qty": 30
+  },
+  {
+    "category": "capacitor",
+    "value": "0n68",
+    "qty": 30
+  },
+  {
+    "category": "capacitor",
+    "value": "2n2",
+    "qty": 30
+  },
+  {
+    "category": "capacitor",
+    "value": "3n",
+    "qty": 30
+  },
+  {
+    "category": "capacitor",
+    "value": "3n3",
+    "qty": 30
+  },
+  {
+    "category": "capacitor",
+    "value": "3n9",
+    "qty": 30
+  },
+  {
+    "category": "capacitor",
+    "value": "4n7",
+    "qty": 30
+  },
+  {
+    "category": "capacitor",
+    "value": "6n8",
+    "qty": 30
+  },
+  {
+    "category": "capacitor",
+    "value": "15n",
+    "qty": 30
+  },
+  {
+    "category": "capacitor",
+    "value": "33n",
+    "qty": 30
+  },
+  {
+    "category": "capacitor",
+    "value": "39n",
+    "qty": 30
+  },
+  {
+    "category": "capacitor",
+    "value": "68n",
+    "qty": 30
+  },
+  {
+    "category": "capacitor",
+    "value": "82n",
+    "qty": 20
+  },
+  {
+    "category": "capacitor",
+    "value": "150n",
+    "qty": 20
+  },
+  {
+    "category": "capacitor",
+    "value": "220n",
+    "qty": 20
+  },
+  {
+    "category": "capacitor",
+    "value": "470n",
+    "qty": 10
+  },
+  {
+    "category": "capacitor",
+    "value": "0u1",
+    "qty": 30
+  },
+  {
+    "category": "capacitor",
+    "value": "0u22",
+    "qty": 20
+  },
+  {
+    "category": "capacitor",
+    "value": "0u47",
+    "qty": 20
+  },
+  {
+    "category": "capacitor",
+    "value": "1u",
+    "qty": 30
+  },
+  {
+    "category": "capacitor",
+    "value": "2u2",
+    "qty": 30
+  },
+  {
+    "category": "capacitor",
+    "value": "3u3",
+    "qty": 30
+  },
+  {
+    "category": "capacitor",
+    "value": "4u7",
+    "qty": 30
+  },
+  {
+    "category": "capacitor",
+    "value": "10u",
+    "qty": 72
+  },
+  {
+    "category": "capacitor",
+    "value": "22u",
+    "qty": 60
+  },
+  {
+    "category": "capacitor",
+    "value": "33u",
+    "qty": 30
+  },
+  {
+    "category": "capacitor",
+    "value": "47u",
+    "qty": 65
+  },
+  {
+    "category": "capacitor",
+    "value": "100u",
+    "qty": 35
+  },
+  {
+    "category": "capacitor",
+    "value": "220u",
+    "qty": 30
+  },
+  {
+    "category": "capacitor",
+    "value": "330u",
+    "qty": 10
+  },
+  {
+    "category": "capacitor",
+    "value": "470u",
+    "qty": 20
+  },
+  {
+    "category": "capacitor",
+    "value": "680u",
+    "qty": 10
+  },
+  {
+    "category": "capacitor",
+    "value": "1000u",
+    "qty": 10
+  },
+  {
+    "category": "IC",
+    "value": "Spin FV1",
+    "qty": 1
   }
 ]

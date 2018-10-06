@@ -1628,5 +1628,150 @@
         "qty": 1
       }
     ]
+  },
+  {
+    "name": "Hummingbird",
+    "parts": [
+      {
+        "category": "resistor",
+        "value": "22K",
+        "qty": 1
+      },
+      {
+        "category": "resistor",
+        "value": "47K",
+        "qty": 1
+      },
+      {
+        "category": "resistor",
+        "value": "100K",
+        "qty": 1
+      },
+      {
+        "category": "resistor",
+        "value": "47K",
+        "qty": 1
+      },
+      {
+        "category": "resistor",
+        "value": "330K",
+        "qty": 1
+      },
+      {
+        "category": "resistor",
+        "value": "39",
+        "qty": 1
+      },
+      {
+        "category": "resistor",
+        "value": "470",
+        "qty": 1
+      },
+      {
+        "category": "resistor",
+        "value": "27K",
+        "qty": 1
+      },
+      {
+        "category": "resistor",
+        "value": "470",
+        "qty": 1
+      },
+      {
+        "category": "resistor",
+        "value": "12K",
+        "qty": 1
+      },
+      {
+        "category": "resistor",
+        "value": "22K",
+        "qty": 1
+      },
+      {
+        "category": "resistor",
+        "value": "100",
+        "qty": 1
+      },
+      {
+        "category": "resistor",
+        "value": "4K7",
+        "qty": 1
+      },
+      {
+        "category": "capacitor",
+        "value": "22n",
+        "qty": 1
+      },
+      {
+        "category": "capacitor",
+        "value": "4u7",
+        "qty": 1
+      },
+      {
+        "category": "capacitor",
+        "value": "1u",
+        "qty": 1
+      },
+      {
+        "category": "capacitor",
+        "value": "100u",
+        "qty": 1
+      },
+      {
+        "category": "capacitor",
+        "value": "4u7",
+        "qty": 1
+      },
+      {
+        "category": "capacitor",
+        "value": "2u2",
+        "qty": 1
+      },
+      {
+        "category": "capacitor",
+        "value": "100u",
+        "qty": 1
+      },
+      {
+        "category": "transistor",
+        "value": "2N5089",
+        "qty": 1
+      },
+      {
+        "category": "transistor",
+        "value": "2N2646",
+        "qty": 1
+      },
+      {
+        "category": "transistor",
+        "value": "2N5457",
+        "qty": 1
+      },
+      {
+        "category": "diode",
+        "value": "1N5817",
+        "qty": 1
+      },
+      {
+        "category": "pot",
+        "value": "B25K",
+        "qty": 1
+      },
+      {
+        "category": "pot",
+        "value": "B50K",
+        "qty": 1
+      },
+      {
+        "category": "pot",
+        "value": "B50K",
+        "qty": 1
+      },
+      {
+        "category": "switch",
+        "value": "SPDT Toggle (On/On)",
+        "qty": 1
+      }
+    ]
   }
 ]
