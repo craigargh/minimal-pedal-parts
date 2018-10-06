@@ -1,4 +1,6 @@
 import argparse
+from itertools import groupby
+from operator import itemgetter
 
 from pedalparts import parttools, pedaltools
 
@@ -56,9 +58,17 @@ def list_missing_parts(pedal_names):
 
     missing = pedaltools.list_missing_parts(pedals, parts)
 
-    for item in missing:
-        output = f"{item['value']} {item['category']} (qty: {item['qty']})"
-        print(output)
+    missing = sorted(missing, key=itemgetter('category'))
+    grouped = groupby(missing, key=itemgetter('category'))
+
+    for group_name, items in grouped:
+        print(group_name)
+
+        for item in items:
+            output = f"{item['value'].ljust(15)}(qty: {item['qty']})"
+            print(output)
+
+        print('')
 
 
 def add_part(category, value, qty):
