@@ -64,7 +64,9 @@ def list_missing_parts(pedal_names):
     for group_name, items in grouped:
         print(group_name)
 
-        for item in items:
+        sorted_items = sorted(items, key=itemgetter('value'))
+
+        for item in sorted_items:
             output = f"{item['value'].ljust(15)}(qty: {item['qty']})"
             print(output)
 
