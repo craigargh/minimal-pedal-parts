@@ -39,37 +39,37 @@
       },
       {
         "category": "capacitor",
-        "value": "1nF",
+        "value": "1n",
         "qty": 1
       },
       {
         "category": "capacitor",
-        "value": "10nF",
+        "value": "10n",
         "qty": 1
       },
       {
         "category": "capacitor",
-        "value": "47nF",
+        "value": "47n",
         "qty": 1
       },
       {
         "category": "capacitor",
-        "value": "1uF",
+        "value": "1u",
         "qty": 1
       },
       {
         "category": "capacitor",
-        "value": "1nF",
+        "value": "1n",
         "qty": 1
       },
       {
         "category": "capacitor",
-        "value": "1uF",
+        "value": "1u",
         "qty": 1
       },
       {
         "category": "capacitor",
-        "value": "47uF",
+        "value": "47u",
         "qty": 1
       },
       {
@@ -325,6 +325,211 @@
       {
         "category": "pot",
         "value": "B25K",
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "name": "Tube Screamer",
+    "parts": [
+      {
+        "category": "resistor",
+        "value": "2M2",
+        "qty": 1
+      },
+      {
+        "category": "resistor",
+        "value": "1K",
+        "qty": 1
+      },
+      {
+        "category": "resistor",
+        "value": "510K",
+        "qty": 1
+      },
+      {
+        "category": "resistor",
+        "value": "10K",
+        "qty": 1
+      },
+      {
+        "category": "resistor",
+        "value": "10K",
+        "qty": 1
+      },
+      {
+        "category": "resistor",
+        "value": "20K",
+        "qty": 1
+      },
+      {
+        "category": "resistor",
+        "value": "220",
+        "qty": 1
+      },
+      {
+        "category": "resistor",
+        "value": "2K4",
+        "qty": 1
+      },
+      {
+        "category": "resistor",
+        "value": "1K",
+        "qty": 1
+      },
+      {
+        "category": "resistor",
+        "value": "1K",
+        "qty": 1
+      },
+      {
+        "category": "resistor",
+        "value": "1K",
+        "qty": 1
+      },
+      {
+        "category": "resistor",
+        "value": "510K",
+        "qty": 1
+      },
+      {
+        "category": "resistor",
+        "value": "10K",
+        "qty": 1
+      },
+      {
+        "category": "resistor",
+        "value": "100",
+        "qty": 1
+      },
+      {
+        "category": "resistor",
+        "value": "10K",
+        "qty": 1
+      },
+      {
+        "category": "resistor",
+        "value": "10K",
+        "qty": 1
+      },
+      {
+        "category": "resistor",
+        "value": "10K",
+        "qty": 1
+      },
+      {
+        "category": "resistor",
+        "value": "4K7",
+        "qty": 1
+      },
+      {
+        "category": "resistor",
+        "value": "10K",
+        "qty": 1
+      },
+      {
+        "category": "capacitor",
+        "value": "27n",
+        "qty": 1
+      },
+      {
+        "category": "capacitor",
+        "value": "1u",
+        "qty": 1
+      },
+      {
+        "category": "capacitor",
+        "value": "51p",
+        "qty": 1
+      },
+      {
+        "category": "capacitor",
+        "value": "100n",
+        "qty": 1
+      },
+      {
+        "category": "capacitor",
+        "value": "220n",
+        "qty": 1
+      },
+      {
+        "category": "capacitor",
+        "value": "180n",
+        "qty": 1
+      },
+      {
+        "category": "capacitor",
+        "value": "1u",
+        "qty": 1
+      },
+      {
+        "category": "capacitor",
+        "value": "100n",
+        "qty": 1
+      },
+      {
+        "category": "capacitor",
+        "value": "10u",
+        "qty": 1
+      },
+      {
+        "category": "capacitor",
+        "value": "47u",
+        "qty": 1
+      },
+      {
+        "category": "capacitor",
+        "value": "47u",
+        "qty": 1
+      },
+      {
+        "category": "diode",
+        "value": "1N914",
+        "qty": 1
+      },
+      {
+        "category": "diode",
+        "value": "1N914",
+        "qty": 1
+      },
+      {
+        "category": "diode",
+        "value": "1N914",
+        "qty": 1
+      },
+      {
+        "category": "diode",
+        "value": "1N5817",
+        "qty": 1
+      },
+      {
+        "category": "IC",
+        "value": "OPA2134",
+        "qty": 1
+      },
+      {
+        "category": "transistor",
+        "value": "2SC1815",
+        "qty": 1
+      },
+      {
+        "category": "transistor",
+        "value": "2SC1815",
+        "qty": 1
+      },
+      {
+        "category": "pot",
+        "value": "B100K",
+        "qty": 1
+      },
+      {
+        "category": "pot",
+        "value": "B20K",
+        "qty": 1
+      },
+      {
+        "category": "pot",
+        "value": "A500K",
         "qty": 1
       }
     ]
