@@ -1,4 +1,5 @@
 from unittest import TestCase
+from unittest.mock import patch
 
 from pedalparts import parttools
 
@@ -67,3 +68,62 @@ class TestAddPartToList(TestCase):
         ]
 
         self.assertEqual(expected, result)
+
+
+class TestLoadAndSave(TestCase):
+    def setUp(self):
+        self.files_mock = patch('pedalparts.parttools.files').start()
+
+        self.addCleanup(patch.stopall)
+
+    def test_load_all_open_file(self):
+        parttools.load_all()
+
+        self.files_mock.load.assert_called_once_with('parts.json')
+
+    def test_load_all_returns_loaded_data(self):
+        self.files_mock.load.return_value = [
+            {'category': 'resistor', 'value': '10k', 'qty': 5}
+        ]
+
+        result = parttools.load_all()
+
+        expected = [{'category': 'resistor', 'value': '10k', 'qty': 5}]
+
+        self.assertEqual(expected, result)
+
+    def test_save_loads_all_parts(self):
+        parttools.save([{'qty': 5}])
+
+        self.files_mock.load.assert_called_once_with('parts.json')
+
+    def test_save_append_new_part_to_existing_parts(self):
+        self.files_mock.load.return_value = [
+            {'category': 'resistor', 'value': '10k', 'qty': 5}
+        ]
+
+        parttools.save(
+            {'category': 'resistor', 'value': '100k', 'qty': 5}
+        )
+
+        expected = [
+            {'category': 'resistor', 'value': '10k', 'qty': 5},
+            {'category': 'resistor', 'value': '100k', 'qty': 5}
+        ]
+
+        self.files_mock.save.assert_called_once_with(expected)
+
+    def test_duplicate_parts_added_to_existing_parts(self):
+        self.files_mock.load.return_value = [
+            {'category': 'resistor', 'value': '10k', 'qty': 5}
+        ]
+
+        parttools.save(
+            {'category': 'resistor', 'value': '10k', 'qty': 5}
+        )
+
+        expected = [
+            {'category': 'resistor', 'value': '10k', 'qty': 10},
+        ]
+
+        self.files_mock.save.assert_called_once_with(expected)

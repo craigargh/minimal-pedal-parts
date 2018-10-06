@@ -1,5 +1,7 @@
 import copy
 
+from pedalparts import files
+
 
 def parse(raw_part):
     # TODO: Lowercase category
@@ -16,6 +18,16 @@ def parse(raw_part):
         'value': split[1],
         'qty': qty,
     }
+
+
+def save(part):
+    existing_parts = load_all()
+    all_parts = add_part(existing_parts, part)
+    files.save(all_parts)
+
+
+def load_all():
+    return files.load('parts.json')
 
 
 def add_part(parts_list, part):
@@ -55,11 +67,3 @@ def update_qty(parts_list, new_part):
 
 def is_same(part_1, part_2):
     return part_1['category'] == part_2['category'] and part_1['value'] == part_2['value']
-
-
-def save(parts_list):
-    pass
-
-
-def load_all():
-    return []
