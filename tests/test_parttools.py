@@ -111,7 +111,7 @@ class TestLoadAndSave(TestCase):
             {'category': 'resistor', 'value': '100k', 'qty': 5}
         ]
 
-        self.files_mock.save.assert_called_once_with(expected)
+        self.files_mock.save.assert_called_once_with('parts.json', expected)
 
     def test_duplicate_parts_added_to_existing_parts(self):
         self.files_mock.load.return_value = [
@@ -126,4 +126,4 @@ class TestLoadAndSave(TestCase):
             {'category': 'resistor', 'value': '10k', 'qty': 10},
         ]
 
-        self.files_mock.save.assert_called_once_with(expected)
+        self.files_mock.save.assert_called_once_with('parts.json', expected)

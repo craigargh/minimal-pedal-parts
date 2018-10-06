@@ -5,9 +5,13 @@ from pedalparts import parttools, pedaltools
 
 def main():
     parser = argparse.ArgumentParser()
-    parser.add_argument('mode', choices=['add_pedal', 'add_parts', 'missing'])
+    parser.add_argument('mode', choices=['add_pedal', 'add_part', 'missing'])
 
     parser.add_argument('--pedals', required=False, nargs='*')
+
+    parser.add_argument('--category', required=False)
+    parser.add_argument('--value', required=False)
+    parser.add_argument('--qty', required=False, type=int)
 
     args = parser.parse_args()
 
@@ -16,6 +20,9 @@ def main():
 
     elif args.mode == 'missing':
         list_missing_parts(args.pedals)
+
+    elif args.mode == 'add_part':
+        add_part(args.category, args.value, args.qty)
 
 
 def add_pedal():
@@ -55,6 +62,16 @@ def list_missing_parts(pedal_names):
     for item in missing:
         output = f"{item['value']} {item['category']} (qty: {item['qty']})"
         print(output)
+
+
+def add_part(category, value, qty):
+    part = {
+        'category': category,
+        'value': value,
+        'qty': qty,
+    }
+
+    parttools.save(part)
 
 
 if __name__ == '__main__':

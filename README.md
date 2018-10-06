@@ -12,7 +12,7 @@ python manage.py add_part category value qty
 
 
 ```shell
-python manage.py add_part resistor 100k 25
+python manage.py add_part --category resistor --value 100k --qty 25
 ```
 
 

@@ -23,7 +23,7 @@ def parse(raw_part):
 def save(part):
     existing_parts = load_all()
     all_parts = add_part(existing_parts, part)
-    files.save(all_parts)
+    files.save('parts.json', all_parts)
 
 
 def load_all():
