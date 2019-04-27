@@ -648,5 +648,15 @@
     "category": "IC",
     "value": "LM308",
     "qty": 2
+  },
+  {
+    "category": "diode",
+    "value": "1N5817",
+    "qty": 20
+  },
+  {
+    "category": "diode",
+    "value": "1N914",
+    "qty": 10
   }
 ]

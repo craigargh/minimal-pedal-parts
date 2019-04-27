@@ -42,6 +42,21 @@ def add_part(parts_list, part):
     return parts
 
 
+def use(part):
+    existing_parts = load_all()
+    all_parts = use_part(existing_parts, part)
+    files.save('data/parts.json', all_parts)
+
+
+def use_part(parts_list, part):
+    parts = copy.deepcopy(parts_list)
+
+    if part_exists(parts_list, part):
+        parts = update_qty(parts_list, part)
+
+    return parts
+
+
 def part_exists(parts_list, new_part):
     duplicates = [
         part
